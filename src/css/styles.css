@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bg-custom {
+  background-color: #f8f8ff;
+}
+
+.bg-greyde {
+  background: rgb(203, 203, 203);
+  background: linear-gradient(
+    90deg,
+    rgba(203, 203, 203, 1) 0%,
+    rgba(203, 203, 203, 1) 51%,
+    rgba(203, 203, 203, 1) 100%
+  );
+}
+
+.bg-gradienting {
+  background: rgb(255, 225, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 255, 1) 0%,
+    rgba(255, 230, 254, 1) 33%,
+    rgba(230, 225, 255, 1) 100%
+  );
+}
+
+.bg-pinkour {
+  background: rgb(255, 251, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 251, 225, 1) 0%,
+    rgba(255, 230, 254, 1) 51%,
+    rgba(255, 225, 255, 1) 100%
+  );
+}
+
+.bg-greenie {
+  background: rgb(225, 255, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(225, 255, 225, 1) 0%,
+    rgba(230, 255, 231, 1) 51%,
+    rgba(225, 255, 226, 1) 100%
+  );
+}
+
+.bg-redie {
+  background: rgb(255, 225, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 225, 225, 1) 0%,
+    rgba(255, 230, 230, 1) 51%,
+    rgba(255, 225, 225, 1) 100%
+  );
+}
+
+.list-group-item {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.navbar-toggle {
+  background: rgb(203, 203, 203);
+  background: linear-gradient(
+    90deg,
+    rgba(203, 203, 203, 1) 0%,
+    rgba(203, 203, 203, 1) 51%,
+    rgba(203, 203, 203, 1) 100%
+  );
+  border: none !important;
+}
+
+.self-place-center {
+  place-self: center;
+}
